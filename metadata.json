@@ -1,0 +1,6 @@
+{
+  "name": "Nudge AI",
+  "description": "A gentle push toward everything that matters. Soft pastel aesthetic with hand-drawn style SVG doodles, real-time task management with countdowns, AI-generated game plans, context-aware nudges, and a friendly chat assistant.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

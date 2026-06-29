@@ -1,0 +1,23 @@
+{
+  "entities": {
+    "FocusStats": {
+      "title": "Focus Stats",
+      "description": "Daily statistics and totals for the user's Focus sessions",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "dailyFocusSessions": { "type": "integer" },
+        "dailyFocusSeconds": { "type": "integer" },
+        "lastActiveDate": { "type": "string" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "dailyFocusSessions", "dailyFocusSeconds", "lastActiveDate"]
+    }
+  },
+  "firestore": {
+    "/focus_stats/{userId}": {
+      "schema": "FocusStats",
+      "description": "Stores user focus session state and counts"
+    }
+  }
+}
