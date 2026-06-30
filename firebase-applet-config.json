@@ -1,0 +1,9 @@
+{
+  "projectId": "watchful-tome-lwrl4",
+  "appId": "1:882696815423:web:711bdfd196a98030cf498a",
+  "apiKey": "process.env.GEMINI_API_KEY",
+  "authDomain": "watchful-tome-lwrl4.firebaseapp.com",
+  "storageBucket": "watchful-tome-lwrl4.firebasestorage.app",
+  "messagingSenderId": "882696815423",
+  "measurementId": ""
+}
